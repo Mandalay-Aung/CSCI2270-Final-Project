@@ -48,25 +48,21 @@ HashTable::HashTable(int bsize)
 
 void HashTable::printTable()
 {
-	// TODO
-	for(int i =0; i < tableSize; i++){ // constructing buckets
-		cout << "table[" << i << "]: ";
+    for(int i = 0; i < tableSize; i++){
+        cout << "table[" << i << "]: ";
 
-		node *current = table[i];
-		bool start = true;
+        node *current = table[i];
+        bool first = true;
 
-		while (current){
-			if(!start){
-				cout << ", ";
-				cout << current->characterName;
-				start = false;
-				current = current->next;
-			}
-			cout << endl;
-		}
-	} 
+        while (current) {
+            if (!first) cout << ", ";
+            cout << current->characterName;
+            first = false;
+            current = current->next;
+        }
+        cout << endl;
+    }
 }
-
 
 //function to calculate hash function
 unsigned int HashTable::hashFunction(string charName)
@@ -97,31 +93,27 @@ node* HashTable::searchCharacter(string charName)
 	return nullptr;
 }
 
-
 //function to insert
 void HashTable::insertItem(ItemInfo newItem)
 {
-	// TODO
-	int index = hashFunction(newItem.characterName);
-	node *start = table[index];
+    int index = hashFunction(newItem.characterName);
+    node *start = table[index];
 
-	for (node *curr = start; curr != nullptr; curr = curr->next){   // If character  exists in this bucket, push into its PQ	
-		if(curr->characterName == newItem.characterName){
-			curr->pq.insertElement(newItem);
-			return;
-		} 
-	}
+    for (node *curr = start; curr != nullptr; curr = curr->next){
+        if(curr->characterName == newItem.characterName){
+            curr->pq.insertElement(newItem);
+            return;
+        }
+    }
 
-	node *chtr = createNode(newItem.characterName, start); // Otherwise create a new character node and insert at start
-	chtr->pq.insertElement(newItem);
+    node *chtr = createNode(newItem.characterName, start);
+    chtr->pq.insertElement(newItem);
 
-	if (start != nullptr){ // if bucket NOT empty
-		numCollision++;
-	}else{
-		table[index] = chtr; // move on
-	}
+    if (start != nullptr) {
+        numCollision++;
+    }
+    table[index] = chtr;   // ALWAYS set this
 }
-
 
 void HashTable:: buildBulk(string fname)
 {
