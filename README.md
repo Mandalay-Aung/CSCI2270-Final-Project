@@ -1,8 +1,8 @@
 # CSCI2270-Final-Project
---------------------------------------Dungeon Crawler Item Management--------------------------------------
+--------------------------------------Campus Crawler Item Management--------------------------------------
 
 # Project Introduction
-For my personal project for **CSCI2270: Data Structures C++**, I built a dungeon crawler inspired item management system.
+For my personal project for **CSCI2270: Data Structures C++**, I built a dungeon crawler inspired item management system, with the theme of CU Boulder in mind.
 
 This project combines multiple data structures and algorithms:
 - **Hash Table (Separate chaining / Linked Lists)** to map a character name → the character’s inventory
