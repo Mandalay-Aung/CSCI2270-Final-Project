@@ -34,8 +34,8 @@ The main program is a terminal based application that allows users to interact w
 Follow these steps to set up and run the project on your own.
 
 ## Prerequisites
-- C++11 compatible compiler (g++)
-- CMake (recommended)
+- C++11 compatible compiler (g++ recommended)
+- CMake
 - Make
 
 # Installation
@@ -64,7 +64,7 @@ Arguments:
 - ../test.txt → Items input file  
 - `10` → Hash tbl size
 
-After launching, the menu will appear, and you then enter the number corresponding to the operation you want to perform.
+After launching, the menu will appear. Enter the number corresponding to the operation you wish to perform.
 
 # File Formats
 ## Items Input File Format
