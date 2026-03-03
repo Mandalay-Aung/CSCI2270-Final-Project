@@ -1,32 +1,36 @@
-Wiggly Wizard;Staff of Immobility;40;Everybody freeze!
-Frank the Frost Giant;Icicle;20;Drippy!
-Great Daniel;Staff of Sickness;500;Sick, dude
-Maria the Marauder;Hand Axe;200;Possibly for chopping wood
-Maria the Marauder;Skull Club;500;The skull is just for decoration
-Great Daniel;Broken Torch;5;Not even good for torching
-Wiggly Wizard;Staff of Vague Illness;100;Good enough to get out of class
-Scottish Ogre;Oversized Sword;200;Comically large
-Frank the Frost Giant;Snow Shovel;3;Should have bought a snowblower
-Large Toad;Big Leaf;5;Make like a tree...
-Ghastly Ghost;Ghostly Scimitar;90;Sharp and curvy
-Wiggly Wizard;Staff of Hair Loss;200;The horror!
-Ghastly Ghost;Ghost Gun;200;3D printed
-Frail Witch;Swiffer Sweeper;10;Not quite a broomstick, but it'll do
-Great Daniel;Ornate Wand;100;Probably more useful to a wizard
-Frank the Frost Giant;Frosty Lance;1500;Nothing like a Wendy's frosty
-Necromancer;Skeleton Staff;1000;Spooky!
-Maria the Marauder;Battle Axe;900;Definitely not for chopping wood
-Frail Witch;Gnarly Wand;50;Pretty gnarly bro
-Large Toad;Sharp Stick;20;Surprisingly pointy
-Vile Beast;Ancient Katana;500;Even vile beasts can appreciate Japanese culture
-Gelatinous Blob;Slimy Dagger;15;Don't get slimed out
-Stoic Elf;Elven Dagger;200;So smooth you can see your reflection
-Vile Beast;War Club;100;Probably the least fun kind of club
-Great Daniel;Greatsword;2000;A great sword!
-Vile Beast;Kitchen Knife;50;Nonetheless very sharp
-Scottish Ogre;Kitchen Knife;50;Nonetheless very sharp
-Vile Beast;Kitchen Knife;50;Nonetheless very sharp
-Necromancer;Suspicious Bone;30;Whose bone is this?
-Stoic Elf;Elven Bow;600;It has beautiful craftsmanship
-Skeleton;Boney Club;40;Looks suspiciously like a femur
-Frost Giant;Blizzard Fist;1500;I never saw it coming!
+Sleep Deprived Freshman;Energy Drink;50;Probably the third one today!
+Sleep Deprived Freshman;Group Project Anxiety;200;Carrying the whole team
+Sleep Deprived Freshman;Half-Charged Laptop;5;Battery at 3%
+Overworked TA;Red Pen;300;Marked 87 midterms
+Overworked TA;Office Hour Coffee;120;Stronger than it looks
+Tenured Professor;Pop Quiz;800;You weren't expecting that
+Overqualified Professor;Lecture Slides;150;Forty-seven slides today
+Overqualified Professor;Research Grant;2000;Funding secured
+Engineering Major;Broken Arduino;40;It worked yesterday
+Engineering Major;Oscilloscope;600;What even is that
+Engineering Major;Soldering Iron;250;Careful, it's hot
+CS Student;Segmentation Fault;500;Core dumped again
+CS Student;Rubber Duck;100;Explaining the bug helps
+CS Student;Stack Overflow Tab;350;Definitely not cheating
+Biochemistry Major;Beaker of Mystery;300;Don't drink that
+Biochemistry Major;Lab Goggles;50;Safety first
+Math Major;Proof by Contradiction;900;Assume the opposite...
+Math Major;Linear Algebra Textbook;400;Heavier than it looks
+Business Major;Networking Event;700;Collected 12 LinkedIn connections
+Business Major;Crayon;300;It has a bite in it?
+Sleep Deprived Senior;Thesis Draft;1200;Due tomorrow whoops
+Sleep Deprived Senior;Cold Pizza;20;Still edible?
+Campus Squirrel;Stolen Sandwich;80;Swift and ruthless
+Campus Squirrel;Trash Can Lid;15;Improvised shield
+Campus Cafeteria Worker;Mystery Meat;250;No one knows
+Campus Cafeteria Worker;Plastic Tray;30;Multi-purpose tool
+Evil Evil Registrar;Administrative Hold;1500;You cannot graduate
+Regular Registrar;Missing Transcript;900;Paperwork nightmare
+Financial Aid Office;Tuition Bill;2500;Critical hit
+Financial Aid Office;Scholarship Email;50;False hope
+Intramural Champ;Gym Membership;400;Leg day
+Intramural Champ;Protein Shake;150;Vanilla flavored
+Philosophy Major;Existential Question;600;What is the meaning?
+Philosophy Major;Overanalyzed Essay;350;Ten pages too long
+Library Ghost;Overdue Notice;300;Books are eternal
+Library Ghost;Dusty Tome;200;Smells ancient
