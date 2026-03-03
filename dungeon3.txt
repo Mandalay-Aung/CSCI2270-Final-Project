@@ -1,0 +1,22 @@
+vertex;start
+vertex;lecture_hall
+vertex;lab
+vertex;library
+vertex;cafeteria
+vertex;gym
+vertex;financial_office
+vertex;registrar_office
+vertex;philosophy_building
+vertex;end
+
+edge;start;lecture_hall;Tenured Professor
+edge;lecture_hall;lab;Engineering Major
+edge;lab;library;CS Student
+edge;library;philosophy_building;Philosophy Major
+edge;philosophy_building;financial_office;Financial Aid Office
+edge;financial_office;registrar_office;Evil Evil Registrar
+edge;registrar_office;end;Sleep Deprived Senior
+
+edge;lecture_hall;cafeteria;Campus Squirrel
+edge;cafeteria;gym;Intramural Champ
+edge;gym;library;Biochemistry Major
