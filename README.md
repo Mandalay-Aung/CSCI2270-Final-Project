@@ -95,6 +95,14 @@ edge;room1;end;Teaching Assistant C
 ```
 Default files will be provided to use or you can customize the files to your desire.
 
+# Running Dungeon Pathfinding
+1. Choose menu option 8
+2. Enter a dungeon file path (example):
+```
+../dungeon2.txt
+```
+The total difficulty cost of the easiest route will then be outputted.
+
 # Author
 Mandalay Aung  
 Student - University of Colorado Boulder  
