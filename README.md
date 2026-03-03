@@ -49,6 +49,7 @@ Follow these steps to set up and run the project on your own.
   ```
 3. Create a Build Directory, Generate Build Files, Compile:
   ```bash
+  mkdir build
   cd build
   cmake ..
   make
@@ -77,11 +78,11 @@ Mandalay Aung;iPad;10000;Well used
 Student A;Notebooks;500;Already five filled up!
 ```
 ## Dungeon Graph File Format
-### Vertex Declaration
+## Vertex Declaration
 ```
 vertex;<vertex_id>
 ```
-### Edge Declaration
+## Edge Declaration
 ```
 edge;<vertex1_id>;<vertex2_id>;<enemy_character_name>
 ```
