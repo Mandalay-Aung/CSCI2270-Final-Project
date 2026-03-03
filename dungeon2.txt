@@ -1,14 +1,20 @@
 vertex;start
+vertex;lecture_hall
+vertex;study_room
+vertex;lab
+vertex;cafeteria
+vertex;financial_office
+vertex;registrar_office
+vertex;library
 vertex;end
-vertex;room1
-vertex;room2
-vertex;room3
-vertex;room4
-edge;start;room1;Vile Beast
-edge;start;room2;Frail Witch
-edge;room1;room3;Necromancer
-edge;room1;room4;Large Toad
-edge;room2;room3;Ghastly Ghost
-edge;room2;room4;Skeleton
-edge;room3;end;Frost Giant
-edge;room4;end;Great Daniel
+
+edge;start;lecture_hall;Overqualified Professor
+edge;lecture_hall;study_room;Math Major
+edge;study_room;lab;CS Student
+edge;lab;cafeteria;Campus Cafeteria Worker
+edge;cafeteria;financial_office;Financial Aid Office
+edge;financial_office;registrar_office;Regular Registrar
+edge;registrar_office;end;Evil Evil Registrar
+
+edge;lecture_hall;library;Library Ghost
+edge;library;end;Sleep Deprived Senior
