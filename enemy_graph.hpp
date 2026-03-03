@@ -36,7 +36,7 @@ class EnemyGraph {
 
 		Vertex* searchVertex(string id);
 
-        int findEasiestPath(HashTable ht);
+        int findEasiestPath(const HashTable& ht);
 
 		void buildGraphFromFile(string fname);
 
