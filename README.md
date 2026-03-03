@@ -95,7 +95,7 @@ edge;room1;end;Teaching Assistant C
 ```
 Default files will be provided to use or you can customize the files to your desire.
 
-# Running Dungeon Pathfinding
+# Running Dungeon Dijkstra’s
 1. Choose menu option 8
 2. Enter a dungeon file path (example):
 ```
