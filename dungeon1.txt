@@ -1,3 +1,10 @@
 vertex;start
+vertex;lecture_hall
+vertex;lab
+vertex;library
 vertex;end
-edge;start;end;Great Daniel
+
+edge;start;lecture_hall;Tenured Professor
+edge;lecture_hall;lab;Engineering Major
+edge;lab;library;CS Student
+edge;library;end;Campus Squirrel
