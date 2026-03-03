@@ -128,7 +128,7 @@ void EnemyGraph::buildGraphFromFile(string fname)
  *   - Edges are labeled with character names, 
  *   - Edge weights will be the character's highest damage item
  */
-int EnemyGraph::findEasiestPath(HashTable ht) {
+int EnemyGraph::findEasiestPath(const HashTable& ht) {
 	//TODO
     if (vertices.count("start") == 0 || vertices.count("end") == 0){ // checking start/end valid
         cout  << "error." << endl;
