@@ -8,17 +8,18 @@ using namespace std;
 
 /////////////////////////////////////////////////
 HashTable::~HashTable() {
-	for (int i = 0; i < tableSize; ++i) {
-    	node* curr = table[i];
-	
-    	while(curr) {
-     	 node* next = curr->next;
-     	 delete curr; //frees heapArr
-      	curr = next;
-		}
+    for (int i = 0; i < tableSize; ++i) {
+        node* curr = table[i];
+        while (curr) {
+            node* next = curr->next;
+            delete curr;
+            curr = next;
+        }
+        table[i] = nullptr;
     }
-	delete[] table;
-  }
+    delete[] table;
+    table = nullptr;
+}
 /////////////////////////////////////////////////
 
 node* HashTable::createNode(string charName, node* nextNode)
