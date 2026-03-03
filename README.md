@@ -11,13 +11,14 @@ This project combines multiple data structures and algorithms:
 - **Dijkstra’s Algorithm** to compute the easiest route from start → end, where edge weights come from an enemy’s strongest item damage
 
 The main program is a terminal based application that allows users to interact with the system through a menu of numbered options where you can load items from a file, manage character inventories, and compute the easiest dungeon route.
-'''
+
+ ```
  **======Main Menu======**
  **1. Build data structure**
  **2. Add new item**
  **3. Peek most powerful item**
  **4. Exit**
- '''
+ ```
 
 # Features
 * Load character inventories from a file
