@@ -67,16 +67,12 @@ void HashTable::printTable()
 //function to calculate hash function
 unsigned int HashTable::hashFunction(string charName)
 {
-	// TODO
-	unsigned int sum = 0;
-	for (unsigned char ascii : charName){
-		sum += ascii;
-
-		return sum % tableSize; // dividing by table size to get bucket num
-	}
+    unsigned int sum = 0;
+    for (unsigned char c : charName) {
+        sum += c;
+    }
+    return sum % tableSize;
 }
-
-
 
 node* HashTable::searchCharacter(string charName)
 {
