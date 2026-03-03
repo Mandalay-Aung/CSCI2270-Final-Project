@@ -11,12 +11,13 @@ This project combines multiple data structures and algorithms:
 - **Dijkstra’s Algorithm** to compute the easiest route from start → end, where edge weights come from an enemy’s strongest item damage
 
 The main program is a terminal based application that allows users to interact with the system through a menu of numbered options where you can load items from a file, manage character inventories, and compute the easiest dungeon route.
-
-- **======Main Menu======**
-- **1. Build data structure**
-- **2. Add new item**
-- **3. Peek most powerful item**
-- **4. Exit**
+'''
+ **======Main Menu======**
+ **1. Build data structure**
+ **2. Add new item**
+ **3. Peek most powerful item**
+ **4. Exit**
+ '''
 
 # Features
 * Load character inventories from a file
@@ -53,12 +54,15 @@ Follow these steps to set up and run the project on your own.
   ```
 
 # How to Run
-From inside the 'build/' directory:
-
+From inside the build/ directory:
 ```bash
 ./crawl ../test.txt 10
 ```
-
 ## Arguments
-- `../test.txt` → Items input file  
-- `10` → Hash table size
+- ../test.txt → Items input file  
+- `10` → Hash tbl size
+
+# Author
+Mandalay Aung  
+Student - University of Colorado Boulder  
+CSCI2270: Data Structures (C++)
