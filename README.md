@@ -93,9 +93,9 @@ vertex;end
 edge;start;room1;Professor B
 edge;room1;end;Teaching Assistant C
 ```
-Files will be provided to fill out to your desire.
+Default files will be provided to use or you can customize the files to your desire.
 
 # Author
 Mandalay Aung  
 Student - University of Colorado Boulder  
-CSCI2270: Data Structures (C++)
+CSCI2270: Data Structures C++
