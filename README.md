@@ -13,11 +13,11 @@ This project combines multiple data structures and algorithms:
 The main program is a terminal based application that allows users to interact with the system through a menu of numbered options where you can load items from a file, manage character inventories, and compute the easiest dungeon route.
 
  ```
- **======Main Menu======**
- **1. Build data structure**
- **2. Add new item**
- **3. Peek most powerful item**
- **4. Exit**
+ ======Main Menu======
+ 1. Build data structure
+ 2. Add new item
+ 3. Peek most powerful item
+ 4. Exit**
  ```
 
 # Features
@@ -59,9 +59,41 @@ From inside the build/ directory:
 ```bash
 ./crawl ../test.txt 10
 ```
-## Arguments
+Arguments:
 - ../test.txt → Items input file  
 - `10` → Hash tbl size
+
+After launching, the menu will appear, and you then enter the number corresponding to the operation you want to perform.
+
+# File Formats
+## Items Input File Format
+Each line must follow:
+```
+Character Name;Item Name;Damage;Comment
+```
+Example:
+```
+Mandalay Aung;iPad;10000;Well used
+Student A;Notebooks;500;Already five filled up!
+```
+## Dungeon Graph File Format
+### Vertex Declaration
+```
+vertex;<vertex_id>
+```
+### Edge Declaration
+```
+edge;<vertex1_id>;<vertex2_id>;<enemy_character_name>
+```
+Example:
+```
+vertex;start
+vertex;room1
+vertex;end
+edge;start;room1;Professor B
+edge;room1;end;Teaching Assistant C
+```
+Files will be provided to fill out to your desire.
 
 # Author
 Mandalay Aung  
